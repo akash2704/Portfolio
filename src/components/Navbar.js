@@ -47,9 +47,6 @@ function NavBar() {
           <span></span>
           <span></span>
           <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
