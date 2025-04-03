@@ -3,7 +3,7 @@
   <a href="https://akashkallai.vercel.app" target="_blank">AkashKallai.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-imgage.png" />
+  <img alt="Demo" src="./Images/Readme-image.png" />
 </div>
 
 <br/>
