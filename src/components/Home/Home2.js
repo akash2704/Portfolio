@@ -15,40 +15,44 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              WHY <span className="purple">CHOOSE ME</span> FOR YOUR NEXT PROJECT?
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              🚀 <strong>Full-Stack Developer</strong> with <strong>3+ years</strong> of experience building scalable, 
+              production-ready applications that drive business growth.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              💼 <strong>Proven Track Record:</strong> Successfully delivered <strong>15+ enterprise projects</strong> 
+              including SaaS platforms, AI-powered applications, and data analytics solutions.
+              <br />
+              <br />
+              🛠️ <strong>Technical Expertise:</strong> Master of
               <i>
-                <b className="purple"> Python, C++ and Javascript. </b>
+                <b className="purple"> Python, JavaScript, React, FastAPI, Django</b>
+              </i>
+              with hands-on experience in
+              <i>
+                <b className="purple"> AWS, Docker, Kubernetes, and CI/CD pipelines.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              🎯 <strong>Specialized in:</strong>
               <i>
-                <b className="purple">Backend Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Artifical Intellengence.
-                </b>
+                <b className="purple"> AI/ML Integration, Serverless Architecture, </b>
+                and <b className="purple">High-Performance Backend Systems</b>
               </i>
+              that handle millions of requests efficiently.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Flask, Django, Node js</b> and
+              ⚡ <strong>What You Get:</strong> Clean, maintainable code • Zero-downtime deployments • 
+              Comprehensive testing • Real-time monitoring • Complete documentation
+              <br />
+              <br />
+              🏆 <strong>Ready to deliver results?</strong> Let's build something amazing together with
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> cutting-edge technologies</b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              and industry best practices.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -59,9 +63,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>LET'S BUILD SOMETHING GREAT TOGETHER</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Ready to <span className="purple">collaborate</span> on your next big idea?
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
