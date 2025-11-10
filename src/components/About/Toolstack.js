@@ -7,7 +7,6 @@ import {
   SiVercel,
   SiNotion,
   SiJira,
-  SiConfluence,
   SiFigma,
 } from "react-icons/si";
 
@@ -31,7 +30,6 @@ function Toolstack() {
       <ToolIcon icon={<SiVercel />} name="Vercel" />
       <ToolIcon icon={<SiNotion />} name="Notion" />
       <ToolIcon icon={<SiJira />} name="Jira" />
-      <ToolIcon icon={<SiConfluence />} name="Confluence" />
       <ToolIcon icon={<SiFigma />} name="Figma" />
     </Row>
   );

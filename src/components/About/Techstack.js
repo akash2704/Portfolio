@@ -13,7 +13,6 @@ import {
   SiPandas,
   SiNumpy,
   SiScikitlearn,
-  SiMatplotlib,
   SiJupyter,
   SiApacheairflow,
   SiJenkins,
@@ -23,9 +22,8 @@ import {
   SiPrometheus,
   SiGrafana,
   SiElasticsearch,
-  SiSeaborn,
 } from "react-icons/si";
-import { FaAws, FaChartBar, FaChartLine } from "react-icons/fa";
+import { FaAws, FaChartBar, FaChartLine, FaPython } from "react-icons/fa";
 
 function Techstack() {
   const TechIcon = ({ icon, name }) => (
@@ -79,8 +77,8 @@ function Techstack() {
       <TechIcon icon={<SiPandas />} name="Pandas" />
       <TechIcon icon={<SiNumpy />} name="NumPy" />
       <TechIcon icon={<SiScikitlearn />} name="Scikit-learn" />
-      <TechIcon icon={<SiMatplotlib />} name="Matplotlib" />
-      <TechIcon icon={<SiSeaborn />} name="Seaborn" />
+      <TechIcon icon={<FaPython />} name="Matplotlib" />
+      <TechIcon icon={<FaChartBar />} name="Seaborn" />
       <TechIcon icon={<SiJupyter />} name="Jupyter" />
       <TechIcon icon={<SiApacheairflow />} name="Apache Airflow" />
       <TechIcon icon={<FaChartBar />} name="Data Visualization" />
