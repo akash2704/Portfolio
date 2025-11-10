@@ -18,41 +18,41 @@ function Home2() {
               WHY <span className="purple">CHOOSE ME</span> FOR YOUR NEXT PROJECT?
             </h1>
             <p className="home-about-body">
-              🚀 <strong>Full-Stack Developer</strong> with <strong>3+ years</strong> of experience building scalable, 
-              production-ready applications that drive business growth.
+              🚀 <strong>Fresh Graduate & Aspiring Developer</strong> with <strong>1 year</strong> of hands-on 
+              freelance experience building real-world applications.
               <br />
               <br />
-              💼 <strong>Proven Track Record:</strong> Successfully delivered <strong>15+ enterprise projects</strong> 
-              including SaaS platforms, AI-powered applications, and data analytics solutions.
+              💼 <strong>Project Portfolio:</strong> Successfully completed <strong>10+ personal and freelance projects</strong> 
+              including SaaS platforms, AI-powered applications, and web development solutions.
               <br />
               <br />
-              🛠️ <strong>Technical Expertise:</strong> Master of
+              🛠️ <strong>Technical Skills:</strong> Proficient in
               <i>
                 <b className="purple"> Python, JavaScript, React, FastAPI, Django</b>
               </i>
-              with hands-on experience in
+              with practical experience in
               <i>
-                <b className="purple"> AWS, Docker, Kubernetes, and CI/CD pipelines.</b>
+                <b className="purple"> AWS, Docker, Git, and modern development workflows.</b>
               </i>
               <br />
               <br />
               🎯 <strong>Specialized in:</strong>
               <i>
-                <b className="purple"> AI/ML Integration, Serverless Architecture, </b>
-                and <b className="purple">High-Performance Backend Systems</b>
+                <b className="purple"> Full-Stack Development, AI/ML Integration, </b>
+                and <b className="purple">RESTful API Development</b>
               </i>
-              that handle millions of requests efficiently.
+              with a passion for clean, efficient code.
               <br />
               <br />
-              ⚡ <strong>What You Get:</strong> Clean, maintainable code • Zero-downtime deployments • 
-              Comprehensive testing • Real-time monitoring • Complete documentation
+              ⚡ <strong>What I Bring:</strong> Fresh perspective • Quick learner • Modern tech stack • 
+              Strong problem-solving skills • Eager to contribute and grow
               <br />
               <br />
-              🏆 <strong>Ready to deliver results?</strong> Let's build something amazing together with
+              🏆 <strong>Ready to start my career?</strong> Let's build something amazing together with
               <i>
-                <b className="purple"> cutting-edge technologies</b>
+                <b className="purple"> enthusiasm, dedication,</b>
               </i>
-              and industry best practices.
+              and cutting-edge technologies.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -63,9 +63,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>LET'S BUILD SOMETHING GREAT TOGETHER</h1>
+            <h1>LET'S CONNECT AND GROW TOGETHER</h1>
             <p>
-              Ready to <span className="purple">collaborate</span> on your next big idea?
+              Ready to <span className="purple">start my journey</span> in tech?
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
