@@ -10,6 +10,10 @@ import webAnalytics from "../../Assets/Projects/WebsiteTextAnalysis.png";
 import NewsSummarizer from "../../Assets/Projects/NewsSummerizer.png";
 import startup from "../../Assets/Projects/linkedin.png";
 import linkedin from "../../Assets/Projects/startup.png";
+import SAAS from "../../Assets/Projects/SAAS.png";
+import aiHelper from "../../Assets/Projects/aiHelper.png";
+import expenseTracker from "../../Assets/Projects/expenseTracker.png"
+import NutriTracker from "../../Assets/Projects/nutriTracker.png"
 
 function Projects() {
   return (
@@ -23,6 +27,45 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={NutriTracker}
+              isBlog={false}
+              title="Nutrition Tracker SaaS"
+              description="Developed a scalable nutrition tracking SaaS platform using FastAPI and AWS Lambda with DynamoDB for efficient data handling. Implemented JWT authentication, meal logging, and personalized nutrition plans. Deployed with CI/CD pipelines via GitHub Actions, ensuring zero-downtime updates and robust API testing."
+              ghLink="https://github.com/akash2704/NutriTracker"
+              demoLink="https://nutri-tracker-rust.vercel.app/dashboard"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SAAS}
+              isBlog={false}
+              title="Ship Track"
+              description="Built a serverless logistics management SaaS platform using FastAPI and AWS Lambda with DynamoDB buffer architecture for scalable data processing. Implemented JWT authentication, real-time shipment tracking, inventory management, and financial dashboards. Deployed with automated CI/CD pipeline using GitHub Actions, achieving zero-downtime deployments and comprehensive API testing coverage."
+              ghLink="https://github.com/akash2704/ShipTrack"
+              demoLink="https://lv6cxxamqd.execute-api.ap-south-1.amazonaws.com/docs"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aiHelper}
+              isBlog={false}
+              title="AI Language Helper"
+              description="Full-stack AI-powered language learning platform featuring real-time conversational practice with intelligent corrections and personalized feedback. Built with FastAPI backend and Next.js frontend, supporting multiple languages and proficiency levels. Containerized architecture with modern UI using React and Tailwind CSS for seamless, interactive learning experiences."
+              ghLink="https://github.com/akash2704/AI-Language-Helper"
+              demoLink="https://ai-language-helper.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expenseTracker}
+              isBlog={false}
+              title="Expense Tracker"
+              description="Enterprise-grade expense management system with JWT authentication, budget tracking, and real-time balance monitoring across multiple accounts. FastAPI backend with PostgreSQL, Alembic migrations, and Docker containerization. Next.js frontend delivering intuitive user experience. Features comprehensive testing, production-ready deployment, and secure role-based access control."
+              ghLink="https://github.com/akash2704/expense-tracker-frontend"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ResumeProcessor}
