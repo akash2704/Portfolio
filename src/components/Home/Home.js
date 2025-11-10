@@ -1,11 +1,9 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
+import Home2 from "./Home2";
 import Type from "./Type";
-
-// Lazy load Home2 component
-const Home2 = lazy(() => import("./Home2"));
 
 function Home() {
   return (
@@ -45,18 +43,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Suspense fallback={
-        <div style={{ 
-          textAlign: 'center', 
-          padding: '100px 0', 
-          color: '#fff',
-          backgroundColor: '#0d1117'
-        }}>
-          <div>Loading...</div>
-        </div>
-      }>
-        <Home2 />
-      </Suspense>
+      <Home2 />
     </section>
   );
 }

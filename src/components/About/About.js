@@ -1,13 +1,11 @@
-import React, { Suspense, lazy } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
+import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-
-// Lazy load Github component as it's heavy
-const Github = lazy(() => import("./Github"));
 
 function About() {
   return (
@@ -53,9 +51,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Suspense fallback={<div style={{ textAlign: 'center', padding: '50px', color: '#fff' }}>Loading GitHub Stats...</div>}>
-          <Github />
-        </Suspense>
+        <Github />
       </Container>
     </Container>
   );
